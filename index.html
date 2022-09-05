@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador DOM</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="Style-encriptador.css">
+        <link rel="stylesheet" href="Script-encriptador.js">
+    </head>
+
+    <body>
+        
+        <header> 
+            <h1><img src="Imagenes/eagle-wings.jpg" alt="Imagen de Presentación del Programador"></h1>
+        </header>
+        
+        <main>
+            <section class="comunicados">
+                <textarea class="input-texto" cols="40" rows="6" placeholder="Ingrese el texto aquí (sin mayúsculas ni acentos)"></textarea>
+                <div class="botones">
+                    <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+                
+            <section class="comunicados">
+                <textarea class="respuesta" cols="18" rows="8" placeholder="Robot en espera de su mensaje"></textarea>
+                <div>
+                    <button class="copiar" onclick="btnCopiar()">Copiar</button>
+                </div>
+            </section>
+        </main>
+        
+        <script src="Script-encriptador.js"></script>
+
+    </body>
+
+</html>    

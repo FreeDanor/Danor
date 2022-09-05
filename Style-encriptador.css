@@ -1,0 +1,96 @@
+body{
+    background: lightgray;
+}
+
+h1 img{
+    margin: 30px 0 0 70px;
+    width: 100px;
+    height: 100px;
+}
+
+main{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.comunicados{
+    padding: 1em 0;
+    margin: 30px 0;
+    display: inline-block;
+}
+
+.input-texto{
+    width: 50%;
+    position: absolute;
+    padding: 120px 20px;
+    left: 3%;
+    font-size: 20px;
+    color: darkslategray;
+    background: lightgray;
+    border: none;
+}
+
+.botones{
+    position:absolute;
+    top: 460%;
+    left: 3%;
+}
+
+.encriptar{
+    padding: 17px 110px;
+    margin: 0 20px;
+    border: darkslategray;
+    border-radius: 20px;
+    background: darkslategray;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.desencriptar{
+    padding: 17px 100px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.respuesta{
+    width: 32%;
+    position: absolute;
+    right: 3%;
+    padding: 220px 0;
+    background-image: url("Imagenes/robot.png");
+    background-repeat: no-repeat;
+    background-position: 40px 157px;
+    background-size: 300px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.respuesta::-webkit-input-placeholder {
+    text-align: center;
+    padding-top: 190px;
+    font-size: 24px;
+    font-weight: bold;
+    color: darkslategray;
+}
+
+.copiar{
+    position:absolute;
+    top: 690px;
+    left: 71%;
+    padding: 17px 100px;
+    border-radius: 20px;
+    background: darkslategray;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
