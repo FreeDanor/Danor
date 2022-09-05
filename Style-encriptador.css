@@ -60,7 +60,7 @@ main{
     position: absolute;
     right: 3%;
     padding: 220px 0;
-    background-image: url("Imagenes/robot.png");
+    background-image: url("robot.png");
     background-repeat: no-repeat;
     background-position: 40px 157px;
     background-size: 300px;
