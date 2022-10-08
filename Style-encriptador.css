@@ -29,6 +29,11 @@ main{
     color: darkslategray;
     background: lightgray;
     border: none;
+    outline: none;
+}
+
+.input-texto:focus::placeholder{
+    color: transparent;
 }
 
 .botones{
@@ -68,6 +73,7 @@ main{
     border: none;
     font-size: 20px;
     text-align: center;
+    outline: none;
 }
 
 .respuesta::-webkit-input-placeholder {
